@@ -138,7 +138,9 @@ class Sidebar extends React.Component<SidebarProps, SidebarState> {
           }
           alt=""
           onClick={() => {
-            this.handleJump("https://koodo.960960.xyz");
+            
+//             this.handleJump("https://koodo.960960.xyz");
+            this.handleJump("https://kreader.vercel.app");
           }}
           className="logo"
         />
